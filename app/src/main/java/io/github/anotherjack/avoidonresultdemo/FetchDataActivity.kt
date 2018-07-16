@@ -2,8 +2,8 @@ package io.github.anotherjack.avoidonresultdemo
 
 import android.app.Activity
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_fetch_data.*
 
 class FetchDataActivity : AppCompatActivity() {
@@ -18,6 +18,5 @@ class FetchDataActivity : AppCompatActivity() {
             setResult(Activity.RESULT_OK,intent)
             finish()
         }
-
     }
 }

@@ -11,11 +11,10 @@ public class ActivityResultInfo {
     private int resultCode;
     private Intent data;
 
-    public ActivityResultInfo(int resultCode, Intent data) {
+    ActivityResultInfo(int resultCode, Intent data) {
         this.resultCode = resultCode;
         this.data = data;
     }
-
 
     public int getResultCode() {
         return resultCode;

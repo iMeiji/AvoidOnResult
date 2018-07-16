@@ -32,9 +32,11 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.1.16'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
     testImplementation 'junit:junit:4.12'
-    implementation project(path: ':avoidonresult')
+//    implementation project(path: ':avoidonresult')
+    implementation 'com.github.iMeiji:AvoidOnResult:1.0'
 }
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }

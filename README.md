@@ -1,3 +1,23 @@
+1.Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+2.Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.iMeiji:AvoidOnResult:1.0'
+	}
+```
+
+---
+
+以下内容为原作者 README
+
 ---
 layout: post
 title: 优雅地封装和使用 onActivityResult 
